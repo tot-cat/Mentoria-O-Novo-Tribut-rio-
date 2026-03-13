@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mentoria O Novo Tributário — Planejamento Tributário Estratégico 2026</title>
+<meta name="description" content="Domine a Reforma Tributária 2026 com a mentoria do Grupo Studio. 12 meses de acesso a planejamento tributário, estratégias práticas de IBS, CBS, Imposto Seletivo e proteção patrimonial para empresas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230F2147'/%3E%3Ctext x='50%25' y='44' text-anchor='middle' font-family='Georgia,serif' font-weight='900' font-size='30' fill='%23C9A84C'%3ET%3C/text%3E%3C/svg%3E">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0F2147;--navy2:#071430;--navy3:#162860;
+  --gold:#C9A84C;--gold2:#E8C86A;--gold3:#F5DFA0;
+  --card:#162352;--card2:#1A2D63;
+  --border:rgba(201,168,76,0.18);--text:#C8D6F0;--muted:#6B85B5;
+  --white:#F0F5FF;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Figtree',sans-serif;background:var(--navy2);color:var(--text);overflow-x:hidden}
+
+/* TOPBAR */
+.topbar{background:var(--gold);text-align:center;padding:9px 16px;font-weight:700;font-size:0.8rem;color:var(--navy2);letter-spacing:0.06em;text-transform:uppercase}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:300;background:rgba(7,20,48,0.97);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:0 32px;height:64px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:12px}
+.logo-icon{width:38px;height:38px;background:var(--navy3);border:1px solid var(--gold);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.logo-icon span{font-family:'Playfair Display',serif;font-weight:900;font-size:1.3rem;color:var(--gold)}
+.logo-text{font-family:'Figtree',sans-serif;font-weight:700;font-size:0.88rem;line-height:1.3}
+.logo-text .line1{color:var(--white)}
+.logo-text .line2{color:var(--gold);font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase}
+.nav-btn{background:var(--gold);color:var(--navy2);font-weight:700;font-size:0.78rem;letter-spacing:0.05em;text-transform:uppercase;padding:10px 22px;border-radius:5px;text-decoration:none;transition:all 0.2s;white-space:nowrap}
+.nav-btn:hover{background:var(--gold2);transform:translateY(-1px)}
+
+/* URGENCY BANNER */
+.urgency{background:linear-gradient(90deg,var(--navy3),#1D3878,var(--navy3));border-bottom:1px solid var(--border);padding:12px 24px;text-align:center;font-size:0.82rem;color:var(--gold3)}
+.urgency strong{color:var(--gold)}
+
+/* HERO */
+.hero{background:var(--navy2);padding:80px 24px 72px;position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 90% 60% at 50% -10%,rgba(201,168,76,0.08) 0%,transparent 65%);pointer-events:none}
+.hero-lines{position:absolute;inset:0;pointer-events:none;opacity:0.04}
+.hero-lines::before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,var(--gold) 0,var(--gold) 1px,transparent 1px,transparent 60px),repeating-linear-gradient(90deg,var(--gold) 0,var(--gold) 1px,transparent 1px,transparent 60px)}
+.hero-inner{max-width:900px;margin:0 auto;text-align:center;position:relative}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(201,168,76,0.1);border:1px solid rgba(201,168,76,0.4);color:var(--gold2);font-size:0.73rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;padding:8px 18px;border-radius:4px;margin-bottom:28px}
+.badge::before{content:'▸';font-size:0.7rem}
+.hero h1{font-family:'Playfair Display',serif;font-weight:900;font-size:clamp(2.2rem,6.5vw,4.4rem);line-height:1.07;letter-spacing:-0.02em;color:var(--white);margin-bottom:10px}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero-sub-title{font-family:'Playfair Display',serif;font-weight:700;font-size:clamp(1.1rem,2.5vw,1.6rem);color:var(--muted);margin-bottom:28px;line-height:1.4;font-style:italic}
+.hero-desc{font-size:1.02rem;color:var(--muted);max-width:640px;margin:0 auto 36px;line-height:1.8}
+.hero-checks{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 28px;margin-bottom:40px}
+.hc{display:flex;align-items:center;gap:8px;font-size:0.88rem;color:#7E9FD4}
+.hc::before{content:'✓';color:var(--gold);font-weight:700;font-size:1rem}
+.cta-wrap{display:flex;flex-direction:column;align-items:center;gap:12px}
+.btn-hero{display:inline-block;background:var(--gold);color:var(--navy2);font-family:'Figtree',sans-serif;font-weight:800;font-size:1.08rem;letter-spacing:0.02em;text-transform:uppercase;padding:20px 60px;border-radius:5px;text-decoration:none;transition:all 0.25s;box-shadow:0 8px 32px rgba(201,168,76,0.4)}
+.btn-hero:hover{background:var(--gold2);transform:translateY(-3px);box-shadow:0 16px 44px rgba(201,168,76,0.55)}
+.cta-micro{font-size:0.76rem;color:var(--muted)}
+
+/* STATS */
+.stats-bar{background:var(--card);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:30px 24px;display:flex;justify-content:center;flex-wrap:wrap;gap:0}
+.stat{text-align:center;padding:12px 40px;border-right:1px solid var(--border)}
+.stat:last-child{border-right:none}
+.stat .n{font-family:'Playfair Display',serif;font-size:2.4rem;font-weight:900;color:var(--gold);line-height:1;display:block;margin-bottom:4px}
+.stat .l{font-size:0.68rem;color:var(--muted);letter-spacing:0.14em;text-transform:uppercase;font-weight:600}
+
+/* URGÊNCIA CONTEXTUAL */
+.context{background:linear-gradient(135deg,#0A1B3D,var(--card));border-top:2px solid var(--gold);border-bottom:1px solid var(--border);padding:52px 24px}
+.context-inner{max-width:900px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.context-text .tag{font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:14px;display:block}
+.context-text h2{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:900;color:var(--white);line-height:1.15;margin-bottom:18px}
+.context-text p{font-size:0.95rem;color:var(--muted);line-height:1.85;margin-bottom:12px}
+.alert-box{background:rgba(201,168,76,0.07);border:1px solid rgba(201,168,76,0.3);border-left:3px solid var(--gold);border-radius:4px;padding:20px 22px}
+.alert-box p{font-size:0.88rem;color:var(--gold3);line-height:1.75;margin:0}
+.alert-box strong{color:var(--gold)}
+.context-data{display:flex;flex-direction:column;gap:14px}
+.data-card{background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:20px 22px;transition:all 0.2s}
+.data-card:hover{border-color:rgba(201,168,76,0.35);transform:translateX(4px)}
+.data-card .pct{font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:var(--gold);line-height:1;margin-bottom:4px}
+.data-card p{font-size:0.82rem;color:var(--muted);line-height:1.55}
+
+/* SECTIONS */
+section{padding:80px 24px}
+.container{max-width:1020px;margin:0 auto}
+.sec-tag{font-size:0.68rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:14px;display:block}
+.sec-h{font-family:'Playfair Display',serif;font-size:clamp(1.9rem,4vw,3rem);font-weight:900;color:var(--white);line-height:1.12;margin-bottom:14px;letter-spacing:-0.02em}
+.sec-h em{font-style:normal;color:var(--gold)}
+.sec-sub{font-size:0.97rem;color:var(--muted);line-height:1.8;max-width:580px;margin-bottom:48px}
+
+/* FOR WHOM */
+.forwhom{background:var(--navy2)}
+.fw-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:12px}
+.fw-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:26px 22px;position:relative;overflow:hidden;transition:all 0.22s;cursor:default}
+.fw-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);transform:scaleX(0);transition:transform 0.3s}
+.fw-card:hover{transform:translateY(-4px);border-color:rgba(201,168,76,0.28)}
+.fw-card:hover::after{transform:scaleX(1)}
+.fw-icon{font-size:1.8rem;margin-bottom:12px}
+.fw-card h3{font-family:'Figtree',sans-serif;font-weight:700;font-size:0.97rem;color:var(--white);margin-bottom:8px}
+.fw-card p{font-size:0.84rem;color:var(--muted);line-height:1.65}
+
+/* CONTEÚDO */
+.content-sec{background:var(--card)}
+.modules-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:14px}
+.module{background:var(--navy2);border:1px solid var(--border);border-radius:10px;padding:26px 22px;transition:all 0.22s;position:relative;overflow:hidden}
+.module::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform 0.35s}
+.module:hover::before{transform:scaleX(1)}
+.module:hover{transform:translateY(-3px)}
+.mod-num{font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:900;color:rgba(201,168,76,0.12);line-height:1;margin-bottom:6px}
+.module h3{font-weight:700;font-size:0.97rem;color:var(--white);margin-bottom:8px}
+.module p{font-size:0.84rem;color:var(--muted);line-height:1.65}
+
+/* MENTORES */
+.mentors-sec{background:var(--navy2)}
+.mentors-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.mentor-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:32px 28px;transition:all 0.2s}
+.mentor-card:hover{border-color:rgba(201,168,76,0.3)}
+.mentor-avatar{width:72px;height:72px;border-radius:50%;background:var(--navy3);border:2px solid var(--gold);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:1.8rem}
+.mentor-role{font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:6px}
+.mentor-card h3{font-family:'Figtree',sans-serif;font-weight:700;font-size:1.05rem;color:var(--white);margin-bottom:8px}
+.mentor-card p{font-size:0.85rem;color:var(--muted);line-height:1.7}
+
+/* STEPS */
+.steps-sec{background:var(--card)}
+.steps-list{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+.step-item{display:flex;gap:20px;align-items:flex-start;background:var(--navy2);border:1px solid var(--border);border-radius:10px;padding:24px 26px;transition:all 0.2s}
+.step-item:hover{border-color:rgba(201,168,76,0.3);transform:translateX(5px)}
+.step-num{font-family:'Playfair Display',serif;font-weight:900;font-size:2.6rem;color:rgba(201,168,76,0.14);line-height:1;flex-shrink:0;min-width:52px}
+.step-item h3{font-weight:700;font-size:0.97rem;color:var(--white);margin-bottom:6px}
+.step-item p{font-size:0.86rem;color:var(--muted);line-height:1.65}
+
+/* PLAN */
+.plan-sec{background:var(--navy2);text-align:center}
+.plan-box{max-width:580px;margin:0 auto;background:var(--card);border:1px solid rgba(201,168,76,0.4);border-radius:12px;padding:52px 44px;position:relative;overflow:hidden;box-shadow:0 0 80px rgba(201,168,76,0.08)}
+.plan-box::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.plan-badge2{display:inline-block;background:var(--gold);color:var(--navy2);font-weight:800;font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;padding:6px 18px;border-radius:3px;margin-bottom:20px}
+.plan-title{font-family:'Playfair Display',serif;font-weight:900;font-size:1.7rem;color:var(--white);margin-bottom:8px}
+.plan-desc{font-size:0.88rem;color:var(--muted);margin-bottom:28px;line-height:1.6}
+.plan-duration{display:inline-block;background:rgba(201,168,76,0.1);border:1px solid rgba(201,168,76,0.25);color:var(--gold);font-size:0.8rem;font-weight:600;padding:6px 16px;border-radius:4px;margin-bottom:28px}
+.plan-features{text-align:left;margin-bottom:32px;display:flex;flex-direction:column;gap:10px}
+.pf{display:flex;align-items:flex-start;gap:10px;font-size:0.88rem;color:#94A9CC;line-height:1.5}
+.pf::before{content:'✓';color:var(--gold);font-weight:700;flex-shrink:0;margin-top:1px}
+.plan-btn{display:block;width:100%;background:var(--gold);color:var(--navy2);font-family:'Figtree',sans-serif;font-weight:800;font-size:1.02rem;letter-spacing:0.04em;text-transform:uppercase;padding:19px;border-radius:5px;text-decoration:none;text-align:center;transition:all 0.22s;box-shadow:0 4px 24px rgba(201,168,76,0.35)}
+.plan-btn:hover{background:var(--gold2);transform:translateY(-2px);box-shadow:0 8px 36px rgba(201,168,76,0.5)}
+.plan-micro{font-size:0.75rem;color:var(--muted);margin-top:14px}
+
+/* FAQ */
+.faq-sec{background:var(--card)}
+.faq-list{max-width:800px;margin:0 auto;display:flex;flex-direction:column;gap:8px}
+.fi{background:var(--navy2);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.fq{width:100%;background:none;border:none;padding:20px 24px;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:14px;transition:background 0.18s}
+.fq:hover{background:rgba(201,168,76,0.04)}
+.fq span{font-weight:600;font-size:0.92rem;color:var(--white);flex:1;line-height:1.4}
+.fq .arr{color:var(--gold);font-size:1.1rem;transition:transform 0.3s;flex-shrink:0}
+.fi.open .arr{transform:rotate(45deg)}
+.fa{max-height:0;overflow:hidden;transition:max-height 0.38s ease}
+.fa p{padding:0 24px 20px;font-size:0.88rem;color:var(--muted);line-height:1.8}
+.fi.open .fa{max-height:300px}
+
+/* GUARANTEE */
+.guarantee-sec{background:var(--navy2);text-align:center}
+.g-box{max-width:640px;margin:0 auto;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:56px 48px;position:relative;overflow:hidden}
+.g-box::before{content:'7';font-family:'Playfair Display',serif;font-weight:900;font-size:18rem;color:rgba(201,168,76,0.04);position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;line-height:1}
+.g-icon2{font-size:3.2rem;margin-bottom:16px}
+.g-box h2{font-family:'Playfair Display',serif;font-weight:900;font-size:2rem;color:var(--white);margin-bottom:16px;position:relative}
+.g-box p{font-size:0.96rem;color:var(--muted);line-height:1.85;position:relative;max-width:460px;margin:0 auto}
+
+/* FINAL */
+.final-sec{background:linear-gradient(180deg,var(--card) 0%,var(--navy2) 100%);text-align:center;padding:96px 24px}
+.final-sec h2{font-family:'Playfair Display',serif;font-weight:900;font-size:clamp(2rem,5vw,3.2rem);color:var(--white);line-height:1.1;margin-bottom:18px}
+.final-sec h2 em{font-style:normal;color:var(--gold)}
+.final-sec p{font-size:1rem;color:var(--muted);max-width:500px;margin:0 auto 40px;line-height:1.8}
+
+/* STICKY */
+.sticky{position:fixed;bottom:0;left:0;right:0;background:rgba(7,20,48,0.98);backdrop-filter:blur(16px);border-top:1px solid var(--border);padding:12px 24px;display:flex;align-items:center;justify-content:center;gap:20px;z-index:999;transform:translateY(100%);transition:transform 0.4s ease;flex-wrap:wrap}
+.sticky.show{transform:translateY(0)}
+.sticky p{font-size:0.84rem;color:var(--muted)}
+.sticky p strong{color:var(--gold2)}
+.sticky-cta{background:var(--gold);color:var(--navy2);font-weight:800;font-size:0.84rem;letter-spacing:0.05em;text-transform:uppercase;padding:12px 28px;border-radius:4px;text-decoration:none;white-space:nowrap;transition:all 0.2s}
+.sticky-cta:hover{background:var(--gold2)}
+
+/* FOOTER */
+footer{background:var(--navy2);border-top:1px solid var(--border);padding:36px 24px 80px;text-align:center}
+footer p{font-size:0.72rem;color:#2a2040;line-height:2}
+
+/* ANIMS */
+.r{opacity:0;transform:translateY(22px);transition:opacity 0.6s ease,transform 0.6s ease}
+.r.on{opacity:1;transform:none}
+
+@media(max-width:700px){
+  .context-inner{grid-template-columns:1fr}
+  .stat{padding:12px 18px;border-right:none;border-bottom:1px solid var(--border)}
+  .stat:last-child{border-bottom:none}
+  .g-box,.plan-box{padding:36px 22px}
+  nav{padding:0 16px}
+  .btn-hero{padding:18px 28px;font-size:0.95rem}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">⚠️ REFORMA TRIBUTÁRIA EM VIGOR — Prepare sua empresa agora</div>
+
+<nav>
+  <div class="logo">
+    <div class="logo-icon"><span>T</span></div>
+    <div class="logo-text">
+      <div class="line1">Mentoria O Novo Tributário</div>
+      <div class="line2">GS Educação · Grupo Studio</div>
+    </div>
+  </div>
+  <a href="https://pay.kiwify.com.br/1iSkIk1?afid=kWqUo067" class="nav-btn" target="_blank">Garantir Acesso</a>
+</nav>
+
+<div class="urgency">
+  ⚡ <strong>Atenção:</strong> A Reforma Tributária entrou em vigor em 2026. Empresas sem planejamento <strong>pagarão mais impostos</strong> durante a transição até 2033.
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-lines"></div>
+  <div class="hero-inner">
+    <div class="badge r">GS Educação · Grupo Studio · +25 anos de experiência tributária</div>
+    <h1 class="r">Mentoria<br><em>O Novo Tributário</em></h1>
+    <p class="hero-sub-title r">Planejamento tributário estratégico para a Reforma 2026–2033</p>
+    <p class="hero-desc r">Domine o novo sistema IBS, CBS e Imposto Seletivo com a mentoria oficial do <strong style="color:var(--white)">Grupo Studio</strong> — a maior rede de franquias de consultoria tributária do Brasil, com mais de 350 escritórios e 700 unidades comerciais em todo o país.</p>
+    <div class="hero-checks r">
+      <div class="hc">12 meses de acesso</div>
+      <div class="hc">Planejamento estratégico real</div>
+      <div class="hc">Especialistas do Grupo Studio</div>
+      <div class="hc">IBS, CBS e Imposto Seletivo</div>
+      <div class="hc">Garantia de 7 dias</div>
+    </div>
+    <div class="cta-wrap">
+      <a href="https://pay.kiwify.com.br/1iSkIk1?afid=kWqUo067" class="btn-hero r" target="_blank">QUERO ME INSCREVER NA MENTORIA</a>
+      <p class="cta-micro r">🔒 Pagamento seguro via Kiwify · Acesso imediato · Plataforma GS Educação</p>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat"><span class="n">+25</span><span class="l">Anos de mercado</span></div>
+  <div class="stat"><span class="n">+350</span><span class="l">Escritórios no Brasil</span></div>
+  <div class="stat"><span class="n">700+</span><span class="l">Unidades comerciais</span></div>
+  <div class="stat"><span class="n">12</span><span class="l">Meses de acesso</span></div>
+  <div class="stat"><span class="n">7</span><span class="l">Dias de garantia</span></div>
+</div>
+
+<!-- CONTEXTO DE URGÊNCIA -->
+<div class="context">
+  <div class="context-inner">
+    <div class="context-text r">
+      <span class="tag">Por que agora?</span>
+      <h2>2026 é o Ano Zero da Reforma Tributária</h2>
+      <p>Desde janeiro de 2026, o Brasil iniciou a fase de transição mais complexa do sistema fiscal em décadas. Empresas precisam operar <strong style="color:var(--white)">com dois sistemas tributários simultâneos</strong> — o antigo e o novo — até 2033.</p>
+      <div class="alert-box">
+        <p>Segundo Tom Knauf, sócio-diretor do Grupo Studio: <strong>"Quem não fizer o planejamento adequado terá aumento de carga tributária. A transição pode ser positiva para quem estiver bem estruturado."</strong></p>
+      </div>
+    </div>
+    <div class="context-data">
+      <div class="data-card r">
+        <div class="pct">95%</div>
+        <p>das empresas brasileiras cometem erros na apuração de tributos, segundo o IBPT — risco que aumenta na transição</p>
+      </div>
+      <div class="data-card r">
+        <div class="pct">5 meses</div>
+        <p>por ano o brasileiro trabalha apenas para pagar impostos — o planejamento correto reduz esse impacto</p>
+      </div>
+      <div class="data-card r">
+        <div class="pct">2033</div>
+        <p>conclusão do período de transição — 7 anos de mudanças graduais que exigem acompanhamento constante</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PARA QUEM É -->
+<section class="forwhom">
+  <div class="container">
+    <span class="sec-tag r">Público-alvo</span>
+    <h2 class="sec-h r">A mentoria é <em>para você</em> que precisa de</h2>
+    <p class="sec-sub r">Independente do porte da empresa ou experiência em tributação, o conhecimento certo evita prejuízos e abre oportunidades.</p>
+    <div class="fw-grid">
+      <div class="fw-card r">
+        <div class="fw-icon">🏢</div>
+        <h3>Empresário e Gestor</h3>
+        <p>Quer entender o impacto da Reforma no seu negócio, reduzir riscos tributários e tomar decisões estratégicas com segurança jurídica.</p>
+      </div>
+      <div class="fw-card r">
+        <div class="fw-icon">📊</div>
+        <h3>Contador e Tributarista</h3>
+        <p>Precisa dominar IBS, CBS e Imposto Seletivo para orientar clientes corretamente durante a transição 2026–2033.</p>
+      </div>
+      <div class="fw-card r">
+        <div class="fw-icon">⚖️</div>
+        <h3>Advogado Empresarial</h3>
+        <p>Quer se capacitar na nova legislação para oferecer consultoria tributária de alto valor e se destacar no mercado.</p>
+      </div>
+      <div class="fw-card r">
+        <div class="fw-icon">💼</div>
+        <h3>Consultor e Franqueado</h3>
+        <p>Busca conhecimento aprofundado para oferecer planejamento tributário como serviço e ampliar seu portfólio de soluções.</p>
+      </div>
+      <div class="fw-card r">
+        <div class="fw-icon">📈</div>
+        <h3>CFO e Diretor Financeiro</h3>
+        <p>Precisa adaptar sistemas, revisar contratos e estruturar o compliance fiscal da empresa para os novos tributos.</p>
+      </div>
+      <div class="fw-card r">
+        <div class="fw-icon">🔍</div>
+        <h3>Profissional em Transição</h3>
+        <p>Quer se especializar na área tributária, que será a mais demandada nos próximos 7 anos de transição da Reforma.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTEÚDO DA MENTORIA -->
+<section class="content-sec">
+  <div class="container">
+    <span class="sec-tag r">O que você aprende</span>
+    <h2 class="sec-h r">Conteúdo da <em>Mentoria O Novo Tributário</em></h2>
+    <p class="sec-sub r">Um ambiente completo de aprendizado prático em planejamento tributário, com estratégias reais aplicáveis imediatamente no seu negócio ou na sua consultoria.</p>
+    <div class="modules-grid">
+      <div class="module r">
+        <div class="mod-num">01</div>
+        <h3>A Reforma Tributária na Prática</h3>
+        <p>Entenda o que muda de verdade para sua empresa: IBS, CBS e Imposto Seletivo — estrutura, alíquotas, créditos e obrigações acessórias.</p>
+      </div>
+      <div class="module r">
+        <div class="mod-num">02</div>
+        <h3>Planejamento Tributário Estratégico</h3>
+        <p>Como usar a nova legislação a favor do negócio, identificar créditos tributários, reduzir custos e otimizar o regime fiscal dentro da lei.</p>
+      </div>
+      <div class="module r">
+        <div class="mod-num">03</div>
+        <h3>Período de Transição 2026–2033</h3>
+        <p>Como operar com dois sistemas simultâneos sem erros, evitar pagamento em duplicidade e aproveitar créditos de ICMS e PIS/Cofins legados.</p>
+      </div>
+      <div class="module r">
+        <div class="mod-num">04</div>
+        <h3>Gestão Patrimonial e Holding</h3>
+        <p>Estratégias de proteção patrimonial, planejamento sucessório e uso de holdings no novo cenário tributário pós-Reforma.</p>
+      </div>
+      <div class="module r">
+        <div class="mod-num">05</div>
+        <h3>Split Payment e Sistemas Fiscais</h3>
+        <p>Como adaptar ERPs, sistemas de faturamento e processos internos ao novo modelo de retenção automática de impostos.</p>
+      </div>
+      <div class="module r">
+        <div class="mod-num">06</div>
+        <h3>Casos Práticos e Mentoria Direta</h3>
+        <p>Análise de casos reais, sessões de perguntas e respostas com especialistas do Grupo Studio e acesso à comunidade de alunos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENTORES -->
+<section class="mentors-sec">
+  <div class="container">
+    <span class="sec-tag r">Quem conduz</span>
+    <h2 class="sec-h r">Especialistas do <em>Grupo Studio</em></h2>
+    <p class="sec-sub r">Fundado em 1998 por José Carlos Braga Monteiro, o Grupo Studio é a maior rede de franquias de consultoria tributária do Brasil.</p>
+    <div class="mentors-grid">
+      <div class="mentor-card r">
+        <div class="mentor-avatar">👔</div>
+        <div class="mentor-role">CEO · Fundador</div>
+        <h3>José Carlos Braga Monteiro</h3>
+        <p>Advogado especialista em Direito Tributário e Econômico. Fundou o Grupo Studio em 1998 e lidera a maior rede de consultoria tributária do Brasil há mais de 25 anos.</p>
+      </div>
+      <div class="mentor-card r">
+        <div class="mentor-avatar">💼</div>
+        <div class="mentor-role">Sócio-Diretor · Tributarista</div>
+        <h3>Tom Knauf</h3>
+        <p>Especialista tributário sócio-diretor do Grupo Studio. Referência nacional em planejamento tributário estratégico, com foco em adaptação das empresas à Reforma Tributária 2026.</p>
+      </div>
+      <div class="mentor-card r">
+        <div class="mentor-avatar">🎓</div>
+        <div class="mentor-role">Diretora · GS Educação</div>
+        <h3>Juliana Tescaro</h3>
+        <p>Líder da GS Educação, unidade educacional do Grupo Studio. Conduz programas de mentoria executiva e formação de lideranças de alta performance no ambiente corporativo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section class="steps-sec">
+  <div class="container">
+    <span class="sec-tag r" style="text-align:center;display:block">Sua jornada</span>
+    <h2 class="sec-h r" style="text-align:center">Como funciona a <em>mentoria</em></h2><br>
+    <div class="steps-list">
+      <div class="step-item r">
+        <div class="step-num">01</div>
+        <div><h3>Acesso imediato à plataforma</h3><p>Após a confirmação do pagamento, você entra no ambiente exclusivo da mentoria e já pode começar a consumir o conteúdo prático sobre o novo sistema tributário.</p></div>
+      </div>
+      <div class="step-item r">
+        <div class="step-num">02</div>
+        <div><h3>Domine o novo sistema tributário</h3><p>Assista às aulas, acompanhe os materiais e entenda profundamente IBS, CBS, Imposto Seletivo, Split Payment e as regras da transição 2026–2033.</p></div>
+      </div>
+      <div class="step-item r">
+        <div class="step-num">03</div>
+        <div><h3>Aplique estratégias no seu negócio</h3><p>Com o conhecimento adquirido, implemente o planejamento tributário estratégico para reduzir custos, recuperar créditos e manter a empresa em compliance.</p></div>
+      </div>
+      <div class="step-item r">
+        <div class="step-num">04</div>
+        <div><h3>12 meses de suporte e atualização</h3><p>Acompanhe as mudanças da Reforma em tempo real com o suporte dos especialistas do Grupo Studio por 12 meses contados do lançamento.</p></div>
+      </div>
+    </div>
+    <br><br>
+    <div style="text-align:center">
+      <a href="https://pay.kiwify.com.br/1iSkIk1?afid=kWqUo067" class="btn-hero r" target="_blank">QUERO PARTICIPAR DA MENTORIA</a>
+    </div>
+  </div>
+</section>
+
+<!-- PLANO -->
+<section class="plan-sec" id="inscricao">
+  <div class="container">
+    <span class="sec-tag r" style="display:block">Investimento</span>
+    <h2 class="sec-h r">Garanta seu acesso à <em>Mentoria</em></h2>
+    <p class="sec-sub r" style="margin:0 auto 48px;max-width:500px">12 meses de acesso ao ambiente completo de planejamento tributário e estratégia do Novo Tributário.</p>
+    <div class="plan-box r">
+      <div class="plan-badge2">⭐ Acesso Completo — 12 Meses</div>
+      <div class="plan-title">Mentoria O Novo Tributário</div>
+      <div class="plan-desc">Planejamento Tributário Estratégico · Grupo Studio · GS Educação</div>
+      <div class="plan-duration">📅 12 meses de acesso · contados do lançamento</div>
+      <div class="plan-features">
+        <div class="pf">Acesso ao ambiente completo da mentoria em planejamento tributário</div>
+        <div class="pf">Estratégias práticas para IBS, CBS e Imposto Seletivo</div>
+        <div class="pf">Domínio do período de transição 2026–2033</div>
+        <div class="pf">Planejamento patrimonial e proteção via holding</div>
+        <div class="pf">Adaptação de sistemas ao Split Payment</div>
+        <div class="pf">Casos práticos com especialistas do Grupo Studio</div>
+        <div class="pf">Acesso à comunidade de alunos e suporte</div>
+        <div class="pf">Atualizações durante toda a vigência do acesso</div>
+        <div class="pf">Garantia incondicional de 7 dias</div>
+      </div>
+      <a href="https://pay.kiwify.com.br/1iSkIk1?afid=kWqUo067" class="plan-btn" target="_blank">GARANTIR MINHA VAGA NA MENTORIA</a>
+      <p class="plan-micro">Pagamento 100% seguro via Kiwify · Plataforma GS Educação / Grupo Studio</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-sec">
+  <div class="container">
+    <span class="sec-tag r" style="text-align:center;display:block">Dúvidas</span>
+    <h2 class="sec-h r" style="text-align:center;max-width:100%">Perguntas <em>frequentes</em></h2><br>
+    <div class="faq-list">
+      <div class="fi r">
+        <button class="fq" onclick="tog(this)"><span>Preciso ter conhecimento prévio em tributação?</span><span class="arr">+</span></button>
+        <div class="fa"><p>Não é obrigatório, mas é recomendado ter noções básicas do sistema tributário brasileiro. A mentoria aborda desde os fundamentos do novo sistema até estratégias avançadas de planejamento, tornando o conteúdo acessível a diferentes níveis de conhecimento.</p></div>
+      </div>
+      <div class="fi r">
+        <button class="fq" onclick="tog(this)"><span>Por quanto tempo terei acesso ao conteúdo?</span><span class="arr">+</span></button>
+        <div class="fa"><p>Você terá acesso por 12 meses contados da data do lançamento da mentoria, conforme descrito na plataforma de compra. Durante esse período, você poderá usufruir de todos os benefícios e atualizações.</p></div>
+      </div>
+      <div class="fi r">
+        <button class="fq" onclick="tog(this)"><span>O que é o Grupo Studio e qual sua credibilidade?</span><span class="arr">+</span></button>
+        <div class="fa"><p>O Grupo Studio é a maior rede de franquias de consultoria tributária do Brasil, fundado em 1998. Possui mais de 350 escritórios, mais de 700 unidades comerciais e mais de 14 modelos de negócios. Com 25+ anos de atuação, é referência nacional em consultoria tributária, societária e financeira.</p></div>
+      </div>
+      <div class="fi r">
+        <button class="fq" onclick="tog(this)"><span>A mentoria serve para o meu regime tributário (Simples, LP, LR)?</span><span class="arr">+</span></button>
+        <div class="fa"><p>Sim. A mentoria aborda as implicações da Reforma Tributária para todos os regimes: Simples Nacional, Lucro Presumido e Lucro Real. Cada regime tem impactos específicos na transição e requer estratégias distintas de planejamento.</p></div>
+      </div>
+      <div class="fi r">
+        <button class="fq" onclick="tog(this)"><span>E se eu não ficar satisfeito após a inscrição?</span><span class="arr">+</span></button>
+        <div class="fa"><p>Você tem 7 dias de garantia incondicional. Se por qualquer motivo não ficar satisfeito, basta solicitar o reembolso dentro do prazo e devolveremos 100% do valor investido. Sem burocracia e sem perguntas.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GARANTIA -->
+<section class="guarantee-sec">
+  <div class="container">
+    <span class="sec-tag r" style="text-align:center;display:block">Risco zero</span>
+    <div class="g-box r">
+      <div class="g-icon2">🛡️</div>
+      <h2>Garantia Incondicional de 7 Dias</h2>
+      <p>Você tem 7 dias completos para avaliar a mentoria. Se por qualquer motivo não ficar satisfeito com o conteúdo, devolvemos <strong style="color:var(--gold)">100% do seu investimento</strong>. Sem burocracia. Sem questionamentos. O risco é inteiramente nosso.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-sec">
+  <h2 class="r">Não deixe a Reforma Tributária<br>pegar sua empresa de <em>surpresa</em></h2>
+  <p class="r">2026 é o início. Quem se preparar agora terá vantagem competitiva pelos próximos 7 anos de transição. O momento de agir é agora.</p>
+  <a href="https://pay.kiwify.com.br/1iSkIk1?afid=kWqUo067" class="btn-hero r" target="_blank">GARANTIR MINHA VAGA NA MENTORIA</a>
+  <p style="margin-top:16px;font-size:0.76rem;color:var(--muted);opacity:0.5" class="r">Pagamento seguro · Acesso imediato · Garantia de 7 dias · Grupo Studio</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Este site é independente e não possui vínculo oficial com o produtor do produto.<br>
+  Ao clicar nos botões, você será redirecionado para a página oficial de vendas na plataforma Kiwify.</p>
+  <p style="margin-top:10px;color:#1a1530">© 2026 Mentoria O Novo Tributário — Todos os direitos reservados</p>
+</footer>
+
+<!-- STICKY -->
+<div class="sticky" id="sticky">
+  <p><strong>Mentoria O Novo Tributário</strong> — Grupo Studio · 12 meses de acesso</p>
+  <a href="https://pay.kiwify.com.br/1iSkIk1?afid=kWqUo067" class="sticky-cta" target="_blank">GARANTIR MINHA VAGA</a>
+</div>
+
+<script>
+function tog(btn){
+  const item=btn.closest('.fi');
+  document.querySelectorAll('.fi.open').forEach(el=>{if(el!==item)el.classList.remove('open')});
+  item.classList.toggle('open');
+}
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach((e,i)=>{
+    if(e.isIntersecting){setTimeout(()=>e.target.classList.add('on'),i*50);obs.unobserve(e.target)}
+  });
+},{threshold:0.07});
+document.querySelectorAll('.r').forEach(el=>obs.observe(el));
+window.addEventListener('scroll',()=>{
+  document.getElementById('sticky').classList.toggle('show',window.scrollY>500);
+});
+</script>
+</body>
+</html>
